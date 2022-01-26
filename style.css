@@ -1,3 +1,57 @@
-body{
-    background-color: yellow;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body, html{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+.hero-banner{
+    background-color: rgb(53, 79, 228);
+    height: 100vh;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    
+}
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+h4{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+}
+.hero-banner h1{
+    color: white;
+    font-weight: 800;
+    font-size:50px; 
+    margin: 14px 0 20px;
+}
+.hero-banner h3{
+    color: white;
+    margin: 0,0,35px;  
+}
+.hero-banner h3{
+    font-weight: bold;
+    font-size: 30px;
+}
+a.cta,button.cta{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    background-color:rgb(53, 79, 228); 
+    display: inline-block;
+    box-shadow: 0 0 0 10px rgba(0, 127, 255, .15);
+    padding: 20px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+a.cta.alt,
+button.cta.alt{
+    color: black;
+    background-color: #ffd400;
+    box-shadow:0 0 0  10px rgba(0,0,0,.15);
+
 }
