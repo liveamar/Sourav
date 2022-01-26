@@ -55,3 +55,45 @@ button.cta.alt{
     box-shadow:0 0 0  10px rgba(0,0,0,.15);
 
 }
+nav{
+    position:sticky ; top:0;
+    height: 100px;
+    background-color: white;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, .2) ;
+}
+.logo{
+    position: absolute; top: 50%; left: 0px;
+    margin-left: 30px;
+    margin-top: -20px;
+    display:block;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+nav ul{
+    padding: 0;
+    margin: 0 20px 0 0;
+}
+nav ul li{
+    margin: 0;
+    padding: 0;
+    display: block;
+    float: right;
+}
+nav ul li a{
+    display: block;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 35px 10px;
+    line-height: 30px;
+
+}
+.more-info{
+    text-align: center;
+}
